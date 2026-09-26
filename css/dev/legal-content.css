@@ -1,0 +1,32 @@
+.legal-content {
+  min-height: 65vh;
+  padding: 8.125rem 0 5rem;
+  background: #fffaf7;
+}
+
+.legal-content__container {
+  max-width: 51.25rem;
+}
+
+.legal-content .section-title {
+  margin: 1.25rem 0 1.75rem;
+}
+
+.legal-content p {
+  margin: 0 0 1.125rem;
+  color: #5f5a56;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.legal-content p a {
+  color: #795f48;
+  text-decoration: underline;
+  text-underline-offset: 0.1875rem;
+}
+
+@media (max-width: 37.5rem) {
+  .legal-content {
+    padding: 6.875rem 0 3.4375rem;
+  }
+}
